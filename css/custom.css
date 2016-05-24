@@ -1,0 +1,135 @@
+﻿
+/*general css start*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size:100px;
+    font-weight:800;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    font-size:25px;
+    margin-top:30px;
+}
+
+.top-gap-15px {
+    margin-top:15px;
+}
+
+.top-gap-30px {
+    margin-top:30px;
+}
+/*general css end*/
+
+ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*header css start*/
+.container {
+    width:980px;
+    border:0px solid red;
+}
+/*.header-background {
+    background-image: -webkit-linear-gradient(top, #E5CC66, #CCE599);
+    background-image: -moz-linear-gradient(top, #E5CC66, #CCE599);
+    background-image: -ms-linear-gradient(top, #E5CC66, #CCE599);
+    background-image: -o-linear-gradient(top, #E5CC66, #CCE599);
+    background-image: linear-gradient(top, #E5CC66, #CCE599);
+}*/
+
+.big-heading {
+    text-align:center;
+}
+span.title-text{
+    font-size:50px;
+    font-weight:300;
+}
+
+
+.demo-header {
+    background: rgba(0, 0, 0, 0) url('../Images/head.jpg') no-repeat scroll center center;
+    background-size:cover;
+    padding: 204px 0;
+    text-align: center;
+}
+.preview-pane {
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+}
+.preview-pane hr {
+    margin: 5px auto;
+    max-width: 50px;
+}
+.preview-pane a {
+    color: #222;
+}
+.preview-pane a:focus {
+    outline: medium none;
+}
+.preview-pane a img {
+    transition: all 0.5s ease 0s;
+}
+.preview-pane a:hover img {
+    opacity: 0.5;
+}
+.label-primary {
+    background-color: #ef4035;
+}
+.cta-list {
+    margin-top: 30px;
+}
+/*header css start*/
+
+
+/*resume css start*/
+.section-container-wrapper .section-container section ul.item-list {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    background-color: #f1f6e8;
+    border-radius: 22px;
+    color: #a3c664;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 2px 0 0;
+    padding: 0 11px;
+    text-align: center;
+}
+
+.title-style {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/*resume css start*/
+
+/*footer css start here*/
+footer.big-footer {
+    background:white;
+    padding:150px 0;
+    border-top:0px solid @eeeeee;
+}
+
+[class^="hvr-"] {
+    background: #e1e1e1 none repeat scroll 0 0;
+    color: #666;
+    cursor: pointer;
+    margin: 0.4em;
+    padding: 2em 3em;
+    text-decoration: none;
+    text-decoration:none;
+}
+/*resume css end here*/
