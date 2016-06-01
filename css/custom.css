@@ -2,41 +2,81 @@
 /*general css start*/
 body {
     font-family: 'Open Sans', sans-serif;
+    color:#2a353d;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h1 {
-    font-size:100px;
-    font-weight:800;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
 }
 
 h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+h4 {
     font-family: 'Satisfy', cursive;
-    font-size:25px;
-    margin-top:30px;
+    font-size: 25px;
+    margin-top: 30px;
 }
 
 .top-gap-15px {
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 .top-gap-30px {
-    margin-top:30px;
+    margin-top: 30px;
 }
 /*general css end*/
 
-ul{
+ul {
     list-style: outside none none;
     margin: 0;
     padding: 0;
 }
 
+ul li{
+    margin-bottom:15px;
+}
+
+.extra-gap {
+    padding:15px 0;
+}
+
+.topgap-50 {
+    margin-top:50px;
+}
+
+.topgap-80 {
+    margin-top:80px;
+}
+
+a#scrollUp {
+    animation: 2s ease 0s normal none infinite running bounce;
+    background: #fe980f none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    padding: 5px 10px;
+    right: 30px;
+}
+
+
 
 
 /*header css start*/
-.container {
-    width:980px;
-    border:0px solid red;
-}
+
 /*.header-background {
     background-image: -webkit-linear-gradient(top, #E5CC66, #CCE599);
     background-image: -moz-linear-gradient(top, #E5CC66, #CCE599);
@@ -45,45 +85,71 @@ ul{
     background-image: linear-gradient(top, #E5CC66, #CCE599);
 }*/
 
-.big-heading {
-    text-align:center;
+.black-bg{
+    background-color:#2a353d;
+    padding:15px 0; 
 }
-span.title-text{
-    font-size:50px;
-    font-weight:300;
+
+.color-white {
+    color:#ffffff;
+}
+
+.text-bold {
+    font-weight:bold;
+}
+
+.big-heading {
+    text-align: center;
+}
+
+span.title-text {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+   
 }
 
 
 .demo-header {
     background: rgba(0, 0, 0, 0) url('../Images/head.jpg') no-repeat scroll center center;
-    background-size:cover;
+    background-size: cover;
     padding: 204px 0;
     text-align: center;
 }
+
 .preview-pane {
     margin-bottom: 30px;
     padding: 15px;
     text-align: center;
 }
-.preview-pane hr {
-    margin: 5px auto;
-    max-width: 50px;
-}
-.preview-pane a {
-    color: #222;
-}
-.preview-pane a:focus {
-    outline: medium none;
-}
-.preview-pane a img {
-    transition: all 0.5s ease 0s;
-}
-.preview-pane a:hover img {
-    opacity: 0.5;
-}
+
+    .preview-pane hr {
+        margin: 5px auto;
+        max-width: 50px;
+    }
+
+    .preview-pane a {
+        color: #222;
+    }
+
+        .preview-pane a:focus {
+            outline: medium none;
+        }
+
+        .preview-pane a img {
+            transition: all 0.5s ease 0s;
+        }
+
+        .preview-pane a:hover img {
+            opacity: 0.5;
+        }
+
 .label-primary {
     background-color: #ef4035;
 }
+
 .cta-list {
     margin-top: 30px;
 }
@@ -98,9 +164,9 @@ span.title-text{
 }
 
 .tag {
-    background-color: #f1f6e8;
+    background-color: #d2d2d2;
     border-radius: 22px;
-    color: #a3c664;
+    color: #454545;
     font-size: 12px;
     line-height: 22px;
     margin: 2px 0 0;
@@ -109,7 +175,7 @@ span.title-text{
 }
 
 .title-style {
-    color: #000;
+    color: #2a353d;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -118,18 +184,23 @@ span.title-text{
 
 /*footer css start here*/
 footer.big-footer {
-    background:white;
-    padding:150px 0;
-    border-top:0px solid @eeeeee;
+    background: white;
+    padding: 50px 0;
+    border-top: 0px solid @eeeeee;
 }
 
 [class^="hvr-"] {
-    background: #e1e1e1 none repeat scroll 0 0;
-    color: #666;
+    background: #d2d2d2 none repeat scroll 0 0;
+    color: #2a353d;
     cursor: pointer;
     margin: 0.4em;
     padding: 2em 3em;
     text-decoration: none;
-    text-decoration:none;
+    text-decoration: none;
+}
+
+.hvr-buzz-out:active, .hvr-buzz-out:focus, .hvr-buzz-out:hover {
+     color: #2a353d;
+     text-decoration:none;
 }
 /*resume css end here*/
