@@ -94,6 +94,18 @@ a#scrollUp {
     color:#ffffff;
 }
 
+.gray-color{
+    color:#2a353d;
+}
+
+.gray-color:hover{
+    color:#2a353d;
+}
+
+.no-outline {
+    outline:none;
+}
+
 .text-bold {
     font-weight:bold;
 }
@@ -107,15 +119,10 @@ span.title-text {
     font-weight: 300;
 }
 
-@media screen and (max-width: 480px) {
-   
-}
-
-
 .demo-header {
     background: rgba(0, 0, 0, 0) url('../Images/sourav-image.jpg') no-repeat scroll center center;
     background-size: cover;
-    padding: 204px 0;
+    padding: 320px 0 80px;
     text-align: center;
 }
 
