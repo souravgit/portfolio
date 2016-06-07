@@ -96,9 +96,10 @@ a#scrollUp {
 
 .gray-color{
     color:#2a353d;
+    outline:none;
 }
 
-.gray-color:hover{
+.gray-color:hover,.gray-color:focus, .gray-color:active{
     color:#2a353d;
 }
 
